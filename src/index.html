@@ -5,6 +5,20 @@
     <title>media</title>
 </head>
 <body>
-
+    <div class="overlay"></div>
+    <div class="modal">
+        <p class="p_text">Что-то пошло не так</p>
+        <p class="p_text">К сожалению нам не удалось определить ваше местоположение, пожалуйста дайте разрешение на использование геолокации, либо введите координаты вручную.</p>
+        <p class="p_text">Широта и долгота через запятую</p>
+        <input type="text" class="geo_input">
+        <div class="buttons_block">
+            <button class="button" id="GEO_cancel_button">Отмена</button>
+            <button class="button" id="GEO_OK_button">Ok</button>
+        </div>
+    </div>
+    <div class="tool" id="tool">
+        <p>Координаты не корректны</p>
+        <button class="button" id="closeToolButton">Закрыть</button>
+    </div>
 </body>
 </html>
